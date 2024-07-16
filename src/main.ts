@@ -6,7 +6,7 @@ async function bootstrap() {
 
   //Configuração do CORS
   app.enableCors();
-  
+
   await app.listen(process.env.PORT);
 }
 bootstrap();
